@@ -14,7 +14,7 @@ public class Main {
 		Class.forName("com.mysql.jdbc.Driver");
 		
 		//Creating connection object
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/FirstDatabase", "root", "admin");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/FirstDatabase", "root", "password");
 		
 		//Creating SQL query
 		PreparedStatement ps = con.prepareStatement("Select * from Register");
