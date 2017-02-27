@@ -12,6 +12,7 @@
 			<version>5.1.6</version>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- Spring framework -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -62,5 +63,14 @@
 			<version>3.13.0-GA</version>
 		</dependency>
 		<!-- Hibernate library dependecy end -->
+=======
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.2.8.Final</version>
+		</dependency>
+
+
+>>>>>>> b8450e20324a4494732099ba4221a8baaf6b6bf4
 	</dependencies>
 </project>
